@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Nav */
+.nav-links {
+    margin-top: 15px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #f59e0b;
+    color: black;
+}
+
+/* Main Layout */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Section Card */
+.card, #about {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #0f766e;
+    margin-top: 15px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Lists */
+ul, ol {
+    margin: 15px 0 15px 25px;
+}
+
+/* Details */
+details {
+    background-color: #ecfdf5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Aside */
+aside {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #e0f2fe;
+    border-radius: 12px;
+}
+
+/* Contact ID */
+#contact {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f5f9;
+    border-radius: 10px;
+}
+
+/* Aside layout */
+.aside-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Contact box */
+.contact-box {
+    flex: 1;
+    min-width: 280px;
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Map box */
+.map-box {
+    flex: 1;
+    min-width: 280px;
+    background-color: #e0f2fe;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Map responsive */
+.map-box iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #facc15;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mark highlight */
+mark {
+    background-color: #facc15;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
