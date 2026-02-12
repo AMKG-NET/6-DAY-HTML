@@ -6,3 +6,5 @@
 
 [DAY 3](https://amkg-net.github.io/6-DAY-HTML/day-3-semantic/)
 
+[DAY 4](https://amkg-net.github.io/6-DAY-HTML/day-4-css-basics/)
+
