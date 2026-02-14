@@ -8,3 +8,5 @@
 
 [DAY 4](https://amkg-net.github.io/6-DAY-HTML/day-4-css-basics/)
 
+[DAY 5](https://amkg-net.github.io/6-DAY-HTML/day-5-flexbox/)
+
