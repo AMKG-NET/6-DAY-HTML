@@ -417,12 +417,7 @@ body {
     padding: 0.3rem 0.8rem;
     font-size: 0.9rem;
   }
-
-  body, html {
-    overflow-x: hidden;
-  }
-
-  .service-features span {
+   .service-features span {
     font-size: 0.85rem;
     padding: 0.3rem 0.6rem;
   }
