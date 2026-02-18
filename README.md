@@ -10,3 +10,4 @@
 
 [DAY 5](https://amkg-net.github.io/6-DAY-HTML/day-5-flexbox/)
 
+[DAY 6](https://amkg-net.github.io/6-DAY-HTML/day-6-Responsive/)
