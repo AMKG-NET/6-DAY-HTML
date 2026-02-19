@@ -1,15 +1,15 @@
  Jr.MERN STACK DEVELOPER -INTERSHIP
 
-[ DAY 1 :-Basic html](https://amkg-net.github.io/6-DAY-HTML/day%20-1-html/)
+[ DAY 1 :-BASIC HTML](https://amkg-net.github.io/6-DAY-HTML/day%20-1-html/)
 
 [DAY 2 :-FORM HTML ](https://amkg-net.github.io/6-DAY-HTML/day-2-form/)
 
 [DAY 3:-HTML SEMANTIC](https://amkg-net.github.io/6-DAY-HTML/day-3-semantic/)
 
-[DAY 4 BASIC CSS](https://amkg-net.github.io/6-DAY-HTML/day-4-css-basics/)
+[DAY 4:-BASIC CSS](https://amkg-net.github.io/6-DAY-HTML/day-4-css-basics/)
 
-[DAY 5 CSS FLEXBOX](https://amkg-net.github.io/6-DAY-HTML/day-5-flexbox/)
+[DAY 5:-CSS FLEXBOX](https://amkg-net.github.io/6-DAY-HTML/day-5-flexbox/)
 
-[DAY 6 RESPONSIVE](https://amkg-net.github.io/6-DAY-HTML/day-6-Responsive/)
+[DAY 6:-RESPONSIVE](https://amkg-net.github.io/6-DAY-HTML/day-6-Responsive/)
 
-[DAY 8 BASIC JAVASCRIPT](https://amkg-net.github.io/6-DAY-HTML/day-8-basic%20javascript/)
+[DAY 8:-BASIC JAVASCRIPT](https://amkg-net.github.io/6-DAY-HTML/day-8-basic%20javascript/)
