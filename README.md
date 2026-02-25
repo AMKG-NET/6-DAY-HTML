@@ -13,3 +13,5 @@
 [DAY 6:-RESPONSIVE](https://amkg-net.github.io/6-DAY-HTML/day-6-Responsive/)
 
 [DAY 8:-BASIC JAVASCRIPT](https://amkg-net.github.io/6-DAY-HTML/day-8-basic%20javascript/)
+
+[DAY 9;-  Conditions & Loops Completed](https://amkg-net.github.io/6-DAY-HTML/day-9-js-conditions-loops/)
