@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.hidden {
+    display: none;
+}
