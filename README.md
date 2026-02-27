@@ -19,3 +19,5 @@
 [DAY 10:-JavaScript Arrays & Objects](https://amkg-net.github.io/6-DAY-HTML/day-10-basic%20data%20structure/)
 
 [DAY-11:-DOM MANIPULATION](https://amkg-net.github.io/6-DAY-HTML/day-11-DOM%20MANIPALTION/)
+
+[DAY-12:-Form Validation](https://amkg-net.github.io/6-DAY-HTML/DAY-12-%20JAVASCRIPT%20FORM%20VALIDATION/)
