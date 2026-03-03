@@ -1,0 +1,245 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6578e5 0%, #9741ed 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    animation: slideDown 1s ease;
+}
+
+/* Input Container */
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background: rgba(158, 181, 239, 0.95);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+input[type="text"]:focus {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background: rgb(128, 69, 224);
+}
+
+input[type="text"]::placeholder {
+    color: #bb6f6f;
+    font-style: italic;
+}
+
+/* Add Button */
+#add-btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+#add-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #ad3bda, #5f0f5f);
+}
+
+#add-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Todo List Container */
+#todo-list {
+    width: 100%;
+    max-width: 500px;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease;
+}
+
+/* Todo Items */
+#todo-list li {
+    background: rgb(172, 197, 227);
+    padding: 1rem 1.5rem;
+    margin: 0.75rem 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    animation: slideIn 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-left: 5px solid transparent;
+}
+
+#todo-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-left-color: #667eea;
+}
+
+/* Checkbox */
+#todo-list li input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    accent-color: #667eea;
+    transition: all 0.2s ease;
+}
+
+#todo-list li input[type="checkbox"]:hover {
+    transform: scale(1.1);
+}
+
+/* Todo Text */
+#todo-list li span {
+    flex: 1;
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0 20px;
+    word-break: break-word;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 0.2rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+#todo-list li span:hover {
+    border-bottom-color: #667eea;
+}
+
+/* Completed Todo */
+#todo-list li span[style*="line-through"] {
+    color: #ab8585;
+    text-decoration: line-through;
+    text-decoration-color: #ff6b6b;
+    text-decoration-thickness: 2px;
+}
+
+/* Delete Button */
+#todo-list li button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+}
+
+#todo-list li button:hover {
+    opacity: 1;
+    transform: scale(1.1) rotate(5deg);
+    background: rgba(255, 107, 107, 0.1);
+}
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    input[type="text"] {
+        max-width: 100%;
+    }
+    
+    #add-btn {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    #todo-list {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    #todo-list li {
+        padding: 0.8rem 1rem;
+    }
+    
+    #todo-list li span {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+}
+
+/* Empty State */
+#todo-list:empty::before {
+    content: "No tasks yet. Add one above! ✨";
+    display: block;
+    text-align: center;
+    color: rgb(247, 184, 184);
+    padding: 2rem;
+    font-style: italic;
+    opacity: 0.8;
+}
