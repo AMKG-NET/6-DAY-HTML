@@ -22,4 +22,4 @@
 
 [DAY-12:-Form Validation](https://amkg-net.github.io/6-DAY-HTML/DAY-12-%20JAVASCRIPT%20FORM%20VALIDATION/)
 
-[MINI PROJECT](https://amkg-net.github.io/6-DAY-HTML/MINI%20PROJECT%20TO-DO%20LIST/)
+[MINI PROJECT TO-DO LIST](https://amkg-net.github.io/6-DAY-HTML/MINI%20PROJECT%20TO-DO%20LIST/)
